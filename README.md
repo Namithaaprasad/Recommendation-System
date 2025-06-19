@@ -1,2 +1,5 @@
 # Recommendation-System
 Movie Recommendation System Using Matrix Factorization Techniques
+
+This project is a movie recommendation system built using matrix factorization from scratch with NumPy. I started by preprocessing the MovieLens dataset, merging ratings and metadata, and constructing a user–movie rating matrix using pivot tables. I then implemented matrix factorization via gradient descent to decompose the matrix into latent user and item feature vectors. The reconstructed matrix was used to predict missing ratings for unseen movies. On top of that, I implemented three recommendation strategies: top-rated movies based on average ratings, most popular movies by year using rating frequency, and genre-based filtering to personalize results according to user preferences. This project helped me understand the full recommendation pipeline — from data cleaning and matrix modeling to evaluation and generating meaningful predictions — without relying on external ML libraries like Surprise or LightFM. It’s a complete, interpretable, and modular approach to collaborative filtering.
+
